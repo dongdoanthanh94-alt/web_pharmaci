@@ -1,0 +1,5 @@
+Options -Indexes
+
+<FilesMatch "^(composer\.(json|lock)|package(-lock)?\.json|tailwind\.config\.js|\.env)$">
+    Require all denied
+</FilesMatch>

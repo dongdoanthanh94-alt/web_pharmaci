@@ -1,0 +1,12 @@
+{
+  "name": "pharmacare-frontend",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./public/assets/css/tailwind.input.css -o ./public/assets/css/tailwind.output.css --minify",
+    "watch:css": "tailwindcss -i ./public/assets/css/tailwind.input.css -o ./public/assets/css/tailwind.output.css --watch"
+  },
+  "devDependencies": {
+    "alpinejs": "^3.14.8",
+    "tailwindcss": "^3.4.17"
+  }
+}
